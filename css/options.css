@@ -1,0 +1,33 @@
+.title-div {
+    background-color: aqua;
+    width: 40%;
+    max-width: 600px;
+    height: 7%;
+    position: absolute;
+    top: 10%;
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.body-div {
+    background-color: bisque;
+    width: 40%;
+    max-width: 600px;
+    height: 30%;
+    position: absolute;
+    top: 17%;
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.body-div table {
+    border: 0px solid black;
+    width: 100%;
+}
+
+.body-div table td ul li {
+    float: left;
+    width: 20%;
+}

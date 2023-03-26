@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>translator-extension settings</title>
+    <link href="css/options.css" type="text/css" rel="stylesheet">
+    <script src="js/options.js"></script>
+</head>
+<body>
+<div class="title-div">
+    <h1>translator-extension settings</h1>
+</div>
+<div class="body-div">
+    <table id="local-path-table" style="text-align: left">
+        <tr>
+            <td>
+                <h3>local path:</h3>
+            </td>
+            <td>
+                <input type="text" id="local-path" name="local-path" value="C:/extension">
+            </td>
+        </tr>
+    </table>
+    <table id="local-vocabulary-table" style="text-align: left">
+        <tr>
+            <td>
+                <h3>enable local vocabulary:</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ul style="list-style-type: none">
+<!--                     todo 点击区域大一点-->
+                    <li>
+                        <input type="radio" id="enable-local-vocabulary-radio-Y" name="enable-local-vocabulary-radio">
+                        Yes
+                    </li>
+                    <li>
+                        <input type="radio" id="enable-local-vocabulary-radio-N" name="enable-local-vocabulary-radio">
+                        No
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right">
+                (use local vocabulary may query faster than query from network, and also effective when offline)
+                <br/>
+                (It will use 2M approx to save vocabulary locally)
+            </td>
+        </tr>
+    </table>
+    <table id="save-attention" style="display: none">
+        <tr>
+            <td>
+                <b style="color: red">settings will take effect AFTER SAVE!</b>
+            </td>
+        </tr>
+    </table>
+    <table id="save-table">
+        <tr>
+            <td>
+                <button id="save-button">save</button>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
